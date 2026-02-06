@@ -1,6 +1,9 @@
 from fastapi import FastAPI
-
 from app.api.predict import router as predict_router
+from app.config import setup_logging
+
+setup_logging()
+
 
 app = FastAPI(
     title="F1 Prediction ML Service",
