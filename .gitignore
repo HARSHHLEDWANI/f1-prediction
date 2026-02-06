@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ML artifacts
+ml/models/*.joblib
+
+# Node
+node_modules/
+.next/
+
+# Env
+.env*
+.env
+.env.local
