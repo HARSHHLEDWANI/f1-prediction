@@ -1,0 +1,13 @@
+{
+  "model_type": "GradientBoostingClassifier",
+  "target": "top5",
+  "features": [
+    "grid_position",
+    "avg_finish_last_5"
+  ],
+  "train_until_season": 2022,
+  "metrics": {
+    "log_loss": 0.31802133415146544,
+    "baseline_log_loss": 7.992018949099001
+  }
+}

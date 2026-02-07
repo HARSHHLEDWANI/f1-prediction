@@ -1,0 +1,5 @@
+numpy<2
+pandas
+pyarrow
+scikit-learn
+joblib
